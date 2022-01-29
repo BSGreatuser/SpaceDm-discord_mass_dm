@@ -1,4 +1,4 @@
-import json, discord, asyncio, random, sqlite3, functions, requests, threading, time
+import json, discord, asyncio, random, sqlite3, functions, requests, threading, time, webbrowser
 
 from discord import channel
 
@@ -402,5 +402,5 @@ async def on_message(message):
                 except:
                     pass
                 return
-
+webbrowser.open("https://discord.gg/AFqvvdAdkY")
 client.run(config["token"])
